@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="cloudantPassword"></string>
+	<string name="cloudantUsername"></string>
+	<string name="cloudantUrl"></string>
+	<string name="cloudantDatabase"></string>
+</resources>

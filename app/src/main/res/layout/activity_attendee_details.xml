@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="15dp"
+	android:orientation="vertical"
+	tools:context=".activities.impls.stats.AttendeeDetailsActivity">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="10dp"
+		android:textStyle="bold"
+		android:textSize="22sp"
+		android:text="@string/details_section_personal"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginStart="20dp"
+		android:orientation="horizontal"
+		android:weightSum="3">
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.1"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:text="@string/attendee_first_name"/>
+
+		<TextView
+			android:id="@+id/firstNameTv"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.9"
+			android:textSize="17sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginStart="20dp"
+		android:orientation="horizontal"
+		android:weightSum="3">
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.1"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:text="@string/attendee_last_name"/>
+
+		<TextView
+			android:id="@+id/lastNameTv"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.9"
+			android:textSize="17sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginStart="20dp"
+		android:orientation="horizontal"
+		android:weightSum="3">
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.1"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:text="@string/attendee_job_title"/>
+
+		<TextView
+			android:id="@+id/jobTitleTv"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.9"
+			android:textSize="17sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginStart="20dp"
+		android:orientation="horizontal"
+		android:weightSum="3">
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.1"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:text="@string/attendee_company"/>
+
+		<TextView
+			android:id="@+id/companyTv"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.9"
+			android:textSize="17sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginStart="20dp"
+		android:orientation="horizontal"
+		android:weightSum="3">
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.1"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:text="@string/attendee_email"/>
+
+		<TextView
+			android:id="@+id/emailTv"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.9"
+			android:textSize="17sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginStart="20dp"
+		android:orientation="horizontal"
+		android:weightSum="3">
+
+		<TextView
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.1"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:text="@string/attendee_phone_number"/>
+
+		<TextView
+			android:id="@+id/phoneNumberTv"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.9"
+			android:textSize="17sp"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="10dp"
+		android:textStyle="bold"
+		android:textSize="22sp"
+		android:text="@string/details_section_rating"/>
+
+	<RadioButton
+		android:id="@+id/ratingRadio"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginStart="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginEnd="20dp"
+		android:checked="true"
+		android:textSize="17sp"/>
+
+	<TextView
+		android:id="@+id/messageTV"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="25dp"
+		android:layout_marginStart="25dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginEnd="20dp"
+		android:layout_marginTop="20dp"
+		android:textSize="17sp"/>
+
+</LinearLayout>

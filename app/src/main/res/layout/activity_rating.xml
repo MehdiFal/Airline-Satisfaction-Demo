@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="15dp"
+	android:background="@color/white"
+	android:orientation="vertical"
+	tools:context=".activities.impls.onboarding.RatingActivity">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:layout_marginBottom="50dp"
+		android:layout_gravity="center_horizontal"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:textSize="19sp"
+		android:text="@string/activity_rating_title"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:textSize="16sp"
+		android:text="@string/activity_rating_subtitle"/>
+
+	<RadioGroup
+		android:id="@+id/satisfactionRadioGroup"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:orientation="vertical"
+		android:checkedButton="@+id/option5">
+
+		<RadioButton
+			android:id="@+id/option5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:text="@string/activity_rating_options_5"
+			android:tag="5"/>
+
+		<RadioButton
+			android:id="@+id/option4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:textSize="20sp"
+			android:text="@string/activity_rating_options_4"
+			android:tag="4"/>
+
+		<RadioButton
+			android:id="@+id/option3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:textSize="20sp"
+			android:text="@string/activity_rating_options_3"
+			android:tag="3"/>
+
+		<RadioButton
+			android:id="@+id/option2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:textSize="20sp"
+			android:text="@string/activity_rating_options_2"
+			android:tag="2"/>
+
+		<RadioButton
+			android:id="@+id/option1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:textSize="20sp"
+			android:text="@string/activity_rating_options_1"
+			android:tag="1"/>
+
+	</RadioGroup>
+
+	<EditText
+		android:id="@+id/commentEditText"
+		android:layout_width="match_parent"
+		android:layout_height="80dp"
+		android:layout_marginTop="10dp"
+		android:gravity="center_vertical"
+		android:maxLines="5"
+		android:hint="@string/activity_rating_message"/>
+
+	<Button
+		android:id="@+id/nextButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="30dp"
+		android:textSize="17sp"
+		android:text="@string/navigation_next"/>
+
+</LinearLayout>

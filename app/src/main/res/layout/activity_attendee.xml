@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="15dp"
+	android:background="@color/white"
+	android:orientation="vertical"
+	tools:context=".activities.impls.onboarding.AttendeeActivity">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:layout_marginBottom="50dp"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:textSize="19sp"
+		android:text="@string/activity_attendee_title"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:textSize="16sp"
+		android:text="@string/activity_attendee_subtitle"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:orientation="horizontal"
+		android:weightSum="2">
+
+		<EditText
+			android:id="@+id/firstNameEditText"
+			android:layout_width="0dp"
+			android:layout_height="30dp"
+			android:layout_weight="1"
+			android:layout_marginRight="5dp"
+			android:layout_marginEnd="5dp"
+			android:background="@drawable/separator_primary_light"
+			android:imeOptions="actionNext"
+			android:nextFocusDown="@+id/lastNameEditText"
+			android:inputType="textPersonName|textCapSentences"
+			android:textColorHint="@color/colorPrimaryLight"
+			android:textColor="@color/primaryText"
+			android:textSize="17sp"
+			android:hint="@string/attendee_first_name"/>
+
+		<EditText
+			android:id="@+id/lastNameEditText"
+			android:layout_width="0dp"
+			android:layout_height="30dp"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"
+			android:layout_marginStart="5dp"
+			android:background="@drawable/separator_primary_light"
+			android:imeOptions="actionNext"
+			android:nextFocusDown="@+id/jobTitleEditText"
+			android:inputType="textPersonName|textCapSentences"
+			android:textColorHint="@color/colorPrimaryLight"
+			android:textColor="@color/primaryText"
+			android:textSize="17sp"
+			android:hint="@string/attendee_last_name"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:orientation="horizontal"
+		android:weightSum="2">
+
+		<EditText
+			android:id="@+id/jobTitleEditText"
+			android:layout_width="0dp"
+			android:layout_height="30dp"
+			android:layout_weight="1"
+			android:layout_marginRight="5dp"
+			android:layout_marginEnd="5dp"
+			android:background="@drawable/separator_primary_light"
+			android:imeOptions="actionNext"
+			android:nextFocusDown="@+id/companyEditText"
+			android:inputType="textPersonName|textCapSentences"
+			android:textColorHint="@color/colorPrimaryLight"
+			android:textColor="@color/primaryText"
+			android:textSize="17sp"
+			android:hint="@string/attendee_job_title"/>
+
+		<EditText
+			android:id="@+id/companyEditText"
+			android:layout_width="0dp"
+			android:layout_height="30dp"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"
+			android:layout_marginStart="5dp"
+			android:background="@drawable/separator_primary_light"
+			android:imeOptions="actionNext"
+			android:nextFocusDown="@+id/emailEditText"
+			android:inputType="textPersonName|textCapSentences"
+			android:textColorHint="@color/colorPrimaryLight"
+			android:textColor="@color/primaryText"
+			android:textSize="17sp"
+			android:hint="@string/attendee_company"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:orientation="horizontal"
+		android:weightSum="2">
+
+		<EditText
+			android:id="@+id/emailEditText"
+			android:layout_width="0dp"
+			android:layout_height="30dp"
+			android:layout_weight="1"
+			android:layout_marginRight="5dp"
+			android:layout_marginEnd="5dp"
+			android:background="@drawable/separator_primary_light"
+			android:imeOptions="actionNext"
+			android:nextFocusDown="@+id/phoneNumberEditText"
+			android:inputType="textEmailAddress"
+			android:textColorHint="@color/colorPrimaryLight"
+			android:textColor="@color/primaryText"
+			android:textSize="17sp"
+			android:hint="@string/attendee_email"/>
+
+		<EditText
+			android:id="@+id/phoneNumberEditText"
+			android:layout_width="0dp"
+			android:layout_height="30dp"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"
+			android:layout_marginStart="5dp"
+			android:background="@drawable/separator_primary_light"
+			android:imeOptions="actionDone"
+			android:inputType="phone"
+			android:textColorHint="@color/colorPrimaryLight"
+			android:textColor="@color/primaryText"
+			android:textSize="17sp"
+			android:hint="@string/attendee_phone_number"/>
+
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/nextButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="30dp"
+		android:textSize="17sp"
+		android:text="@string/navigation_next"/>
+
+</LinearLayout>

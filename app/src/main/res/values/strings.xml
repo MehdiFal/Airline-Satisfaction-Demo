@@ -1,0 +1,54 @@
+<resources>
+	<string name="app_name">Airline Satisfaction</string>
+
+	<string name="activity_splash">Welcome</string>
+	<string name="splash_content">AirLine XYZ</string>
+
+	<string name="activity_attendee">Attendee</string>
+	<string name="activity_attendee_menu">Stats</string>
+	<string name="activity_attendee_title">We are glad to have you on our flights!</string>
+	<string name="activity_attendee_subtitle">Tell us a bit about yourself:</string>
+	<string name="attendee_first_name">First Name</string>
+	<string name="attendee_last_name">Last Name</string>
+	<string name="attendee_job_title">Job Title</string>
+	<string name="attendee_company">Company</string>
+	<string name="attendee_email">Email</string>
+	<string name="attendee_phone_number">Phone Number</string>
+
+	<string name="activity_interests">Interests</string>
+	<string name="activity_interests_title">What are your interests?</string>
+	<string name="activity_interests_subtitle">What are your interests?</string>
+	<string name="activity_interests_ecm">ECM</string>
+	<string name="activity_interests_bpm">BPM</string>
+	<string name="activity_interests_odm">ODM</string>
+	<string name="activity_interests_data_science">Data Science</string>
+	<string name="activity_interests_watson_analytics">Watson Analytics</string>
+	<string name="activity_interests_bi">Business Intelligence</string>
+	<string name="activity_interests_cloud">Cloud</string>
+	<string name="activity_interests_devops">DevOps</string>
+	<string name="activity_interests_integration">Integration</string>
+
+	<string name="activity_rating">Rating</string>
+	<string name="activity_rating_title">How satisfied are you?</string>
+	<string name="activity_rating_subtitle">Please check one of the below</string>
+	<string name="activity_rating_options_5">That was awesome!</string>
+	<string name="activity_rating_options_4">Satisfied.</string>
+	<string name="activity_rating_options_3">It was normal.</string>
+	<string name="activity_rating_options_2">I didn\'t really like it.</string>
+	<string name="activity_rating_options_1">That was a disaster!</string>
+	<string name="activity_rating_message">Wanna add something?</string>
+
+	<string name="activity_thanks">Thanks</string>
+	<string name="activity_thanks_title">Thank You for your time!</string>
+
+	<string name="activity_attendees_list">Attendees</string>
+
+	<string name="activity_details">Details</string>
+	<string name="details_section_personal">Personal Data</string>
+	<string name="details_section_rating">Rating</string>
+
+	<string name="none">Not specified</string>
+
+	<string name="navigation_next">Next</string>
+
+</resources>

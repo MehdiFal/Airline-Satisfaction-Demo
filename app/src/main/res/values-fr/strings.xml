@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Event Android</string>
+
+	<string name="activity_splash">Bienvenue!</string>
+	<string name="splash_content">Mon évènement</string>
+
+
+	<string name="activity_reviews">List d\'avis</string>
+
+
+	<string name="activity_details">Details</string>
+
+</resources>
